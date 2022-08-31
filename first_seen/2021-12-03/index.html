@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: 2021-12-03</title>
+    <meta name="description" content="Javascript-free Tor metrics generated from
+    an hourly API request.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../static/css/bootstrap.min.css">
+    <!--source: metrics.torproject.org-->
+    <style>
+        .circle {
+            display: inline-block;
+            vertical-align: middle;
+            background: #999999;
+            width: 7px;
+            height: 7px;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+        }
+
+        .circle-online {
+            background: #25d918;
+        }
+
+        .circle-offline {
+            background: #ff1515;
+        }
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<h2><a href="../../">Home</a> :: 2021-12-03</h2>
+<p>Relays started on 2021-12-03 are responsible for ~742.47 MB/s of traffic, with 10
+middle relays and 20 exit relays.</p>
+<table class="table table-condensed">
+<tr>
+<th></th>
+<th>Nickname</th>
+<th>Contact</th>
+<th>Bandwidth</th>
+<th class="visible-md visible-lg">IP Address</th>
+<th>AS Number</th>
+<th>AS Name</th>
+<th>Country</th>
+<th>Platform</th>
+<th class="visible-md visible-lg">Flags</th>
+<th class="visible-md visible-lg">First Seen</th>
+</tr>
+<tbody>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="snowball"><a href="../../relay/90BCBF737079BB5047CB2AEAE49FBC1BA91B5EDB.html">snowball</a></td>
+<td><code><a href="../../contact/c97aa66435b0049551cd64b4cac17b79/"
+title="email:snowball at rapidmail.cc">c97aa664</a></code></td>
+<td>69.43 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/95.216.13.55">95.216.13.55</a></td>
+
+<td><a href="../../as/AS24940/">AS24940</a></td>
+<td><a href="https://bgp.he.net/AS24940" title="Hetzner Online GmbH">Hetzner Online GmbH</a></td>
+<td><a href="../../country/fi/"><img
+src="../../static/images/cc/fi.png" title="Finland" alt="Finland"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="SDRHausSEA1"><a href="../../relay/956B0D08024639F9D7F3F333283ED4480B807D8D.html">SDRHausSEA1</a></td>
+<td><code><a href="../../contact/90b52295a3530dcc6de958f3c0f64806/"
+title="johnson blake 1 at gmail PUNKT com [tor-relay.co]">90b52295</a></code></td>
+<td>46.87 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/64.42.176.50">64.42.176.50</a></td>
+
+<td><a href="../../as/AS63018/">AS63018</a></td>
+<td><a href="https://bgp.he.net/AS63018" title="DEDICATED">DEDICATED</a></td>
+<td><a href="../../country/us/"><img
+src="../../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber65"><a href="../../relay/052DD265BDC99F7AC98B3DB03652C36E36AB3541.html">artik...</a> (<a href="../../family/052DD265BDC99F7AC98B3DB03652C36E36AB3541/">104</a>)</td>
+<td><code><a href="../../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f/"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">f9007b70</a></code></td>
+<td>39.99 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.224">185.220.101.224</a></td>
+
+<td><a href="../../as/AS60729/">AS60729</a></td>
+<td><a href="https://bgp.he.net/AS60729" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../../country/de/"><img
+src="../../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber69"><a href="../../relay/C583FE1E179C886854EC36DA325E982C39F306B1.html">artik...</a> (<a href="../../family/C583FE1E179C886854EC36DA325E982C39F306B1/">104</a>)</td>
+<td><code><a href="../../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f/"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">f9007b70</a></code></td>
+<td>38.71 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.226">185.220.101.226</a></td>
+
+<td><a href="../../as/AS60729/">AS60729</a></td>
+<td><a href="https://bgp.he.net/AS60729" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../../country/de/"><img
+src="../../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber67"><a href="../../relay/9BEA5A57E3966C86B7E9AD788BB9EE337C31446C.html">artik...</a> (<a href="../../family/9BEA5A57E3966C86B7E9AD788BB9EE337C31446C/">104</a>)</td>
+<td><code><a href="../../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f/"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">f9007b70</a></code></td>
+<td>38.58 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.225">185.220.101.225</a></td>
+
+<td><a href="../../as/AS60729/">AS60729</a></td>
+<td><a href="https://bgp.he.net/AS60729" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../../country/de/"><img
+src="../../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber70"><a href="../../relay/72AB7C961CD2AEEB949474CAF88DF5221546D2BF.html">artik...</a> (<a href="../../family/72AB7C961CD2AEEB949474CAF88DF5221546D2BF/">104</a>)</td>
+<td><code><a href="../../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f/"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">f9007b70</a></code></td>
+<td>37.92 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.226">185.220.101.226</a></td>
+
+<td><a href="../../as/AS60729/">AS60729</a></td>
+<td><a href="https://bgp.he.net/AS60729" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../../country/de/"><img
+src="../../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber66"><a href="../../relay/81A1D74F5E47D477B10F8281858CD5FE12144CFF.html">artik...</a> (<a href="../../family/81A1D74F5E47D477B10F8281858CD5FE12144CFF/">104</a>)</td>
+<td><code><a href="../../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f/"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">f9007b70</a></code></td>
+<td>35.51 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.224">185.220.101.224</a></td>
+
+<td><a href="../../as/AS60729/">AS60729</a></td>
+<td><a href="https://bgp.he.net/AS60729" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../../country/de/"><img
+src="../../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber68"><a href="../../relay/1CC7786BEEA51EDAB4542EEF16BF46AD68E32C8A.html">artik...</a> (<a href="../../family/1CC7786BEEA51EDAB4542EEF16BF46AD68E32C8A/">104</a>)</td>
+<td><code><a href="../../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f/"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">f9007b70</a></code></td>
+<td>32.43 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.225">185.220.101.225</a></td>
+
+<td><a href="../../as/AS60729/">AS60729</a></td>
+<td><a href="https://bgp.he.net/AS60729" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../../country/de/"><img
+src="../../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber56"><a href="../../relay/8029928877A15A504D92996C65BFD4F0BDF4E702.html">artik...</a> (<a href="../../family/8029928877A15A504D92996C65BFD4F0BDF4E702/">104</a>)</td>
+<td><code><a href="../../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f/"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">f9007b70</a></code></td>
+<td>28.64 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.28">185.220.101.28</a></td>
+
+<td><a href="../../as/AS60729/">AS60729</a></td>
+<td><a href="https://bgp.he.net/AS60729" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../../country/de/"><img
+src="../../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/exit"><img src="../../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber44"><a href="../../relay/5897522C8BCC886A59E3032125DDB1D33A156AB3.html">artik...</a> (<a href="../../family/5897522C8BCC886A59E3032125DDB1D33A156AB3/">104</a>)</td>
+<td><code><a href="../../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f/"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">f9007b70</a></code></td>
+<td>26.62 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.22">185.220.101.22</a></td>
+
+<td><a href="../../as/AS60729/">AS60729</a></td>
+<td><a href="https://bgp.he.net/AS60729" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../../country/de/"><img
+src="../../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/exit"><img src="../../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber50"><a href="../../relay/8392CF7DD3E8B17685DDE98B0BC4E7391F727246.html">artik...</a> (<a href="../../family/8392CF7DD3E8B17685DDE98B0BC4E7391F727246/">104</a>)</td>
+<td><code><a href="../../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f/"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">f9007b70</a></code></td>
+<td>24.75 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.25">185.220.101.25</a></td>
+
+<td><a href="../../as/AS60729/">AS60729</a></td>
+<td><a href="https://bgp.he.net/AS60729" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../../country/de/"><img
+src="../../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/exit"><img src="../../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber52"><a href="../../relay/F3044FB2A8CE7379D2FBA9BFD624EFE180F41C26.html">artik...</a> (<a href="../../family/F3044FB2A8CE7379D2FBA9BFD624EFE180F41C26/">104</a>)</td>
+<td><code><a href="../../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f/"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">f9007b70</a></code></td>
+<td>21.65 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.26">185.220.101.26</a></td>
+
+<td><a href="../../as/AS60729/">AS60729</a></td>
+<td><a href="https://bgp.he.net/AS60729" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../../country/de/"><img
+src="../../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/exit"><img src="../../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber53"><a href="../../relay/64455A8D18A789BBFD648D63B038686218D83149.html">artik...</a> (<a href="../../family/64455A8D18A789BBFD648D63B038686218D83149/">104</a>)</td>
+<td><code><a href="../../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f/"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">f9007b70</a></code></td>
+<td>20.69 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.27">185.220.101.27</a></td>
+
+<td><a href="../../as/AS60729/">AS60729</a></td>
+<td><a href="https://bgp.he.net/AS60729" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../../country/de/"><img
+src="../../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/exit"><img src="../../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber49"><a href="../../relay/105F800FD30E637883A64EA64BC556E82C248A51.html">artik...</a> (<a href="../../family/105F800FD30E637883A64EA64BC556E82C248A51/">104</a>)</td>
+<td><code><a href="../../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f/"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">f9007b70</a></code></td>
+<td>20.52 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.25">185.220.101.25</a></td>
+
+<td><a href="../../as/AS60729/">AS60729</a></td>
+<td><a href="https://bgp.he.net/AS60729" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../../country/de/"><img
+src="../../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/exit"><img src="../../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber41"><a href="../../relay/768C50E197D3CBE256B30FE949603FD23112890B.html">artik...</a> (<a href="../../family/768C50E197D3CBE256B30FE949603FD23112890B/">104</a>)</td>
+<td><code><a href="../../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f/"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">f9007b70</a></code></td>
+<td>20.48 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.21">185.220.101.21</a></td>
+
+<td><a href="../../as/AS60729/">AS60729</a></td>
+<td><a href="https://bgp.he.net/AS60729" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../../country/de/"><img
+src="../../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/exit"><img src="../../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber40"><a href="../../relay/9A3076C5EB8D85150B6CA6AB81F9D3579091659A.html">artik...</a> (<a href="../../family/9A3076C5EB8D85150B6CA6AB81F9D3579091659A/">104</a>)</td>
+<td><code><a href="../../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f/"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">f9007b70</a></code></td>
+<td>20.11 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.20">185.220.101.20</a></td>
+
+<td><a href="../../as/AS60729/">AS60729</a></td>
+<td><a href="https://bgp.he.net/AS60729" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../../country/de/"><img
+src="../../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/exit"><img src="../../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber37"><a href="../../relay/73628BEE346E50C3A60ECFF30A35D4452D1D074A.html">artik...</a> (<a href="../../family/73628BEE346E50C3A60ECFF30A35D4452D1D074A/">104</a>)</td>
+<td><code><a href="../../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f/"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">f9007b70</a></code></td>
+<td>19.58 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.19">185.220.101.19</a></td>
+
+<td><a href="../../as/AS60729/">AS60729</a></td>
+<td><a href="https://bgp.he.net/AS60729" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../../country/de/"><img
+src="../../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/exit"><img src="../../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber46"><a href="../../relay/4154F933916022087165230DD5774BC168CA1F9C.html">artik...</a> (<a href="../../family/4154F933916022087165230DD5774BC168CA1F9C/">104</a>)</td>
+<td><code><a href="../../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f/"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">f9007b70</a></code></td>
+<td>19.53 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.23">185.220.101.23</a></td>
+
+<td><a href="../../as/AS60729/">AS60729</a></td>
+<td><a href="https://bgp.he.net/AS60729" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../../country/de/"><img
+src="../../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/exit"><img src="../../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber47"><a href="../../relay/64EEA511984F2C862F09E77755DC657EC31E6483.html">artik...</a> (<a href="../../family/64EEA511984F2C862F09E77755DC657EC31E6483/">104</a>)</td>
+<td><code><a href="../../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f/"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">f9007b70</a></code></td>
+<td>19.18 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.24">185.220.101.24</a></td>
+
+<td><a href="../../as/AS60729/">AS60729</a></td>
+<td><a href="https://bgp.he.net/AS60729" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../../country/de/"><img
+src="../../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/exit"><img src="../../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber48"><a href="../../relay/57BC08F00C6A083631EF32352CEFF7564D2A66AD.html">artik...</a> (<a href="../../family/57BC08F00C6A083631EF32352CEFF7564D2A66AD/">104</a>)</td>
+<td><code><a href="../../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f/"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">f9007b70</a></code></td>
+<td>18.77 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.24">185.220.101.24</a></td>
+
+<td><a href="../../as/AS60729/">AS60729</a></td>
+<td><a href="https://bgp.he.net/AS60729" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../../country/de/"><img
+src="../../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/exit"><img src="../../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber39"><a href="../../relay/8C76967C2791E2709135846F172ED74AFA3C260E.html">artik...</a> (<a href="../../family/8C76967C2791E2709135846F172ED74AFA3C260E/">104</a>)</td>
+<td><code><a href="../../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f/"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">f9007b70</a></code></td>
+<td>18.61 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.20">185.220.101.20</a></td>
+
+<td><a href="../../as/AS60729/">AS60729</a></td>
+<td><a href="https://bgp.he.net/AS60729" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../../country/de/"><img
+src="../../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/exit"><img src="../../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber55"><a href="../../relay/9E5680B3F5C2CA768F282C85DBAA11732D7456D4.html">artik...</a> (<a href="../../family/9E5680B3F5C2CA768F282C85DBAA11732D7456D4/">104</a>)</td>
+<td><code><a href="../../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f/"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">f9007b70</a></code></td>
+<td>18.17 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.28">185.220.101.28</a></td>
+
+<td><a href="../../as/AS60729/">AS60729</a></td>
+<td><a href="https://bgp.he.net/AS60729" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../../country/de/"><img
+src="../../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/exit"><img src="../../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber43"><a href="../../relay/2E7EFCF9BBE38211DC90BBB9F32FBEF612ACC490.html">artik...</a> (<a href="../../family/2E7EFCF9BBE38211DC90BBB9F32FBEF612ACC490/">104</a>)</td>
+<td><code><a href="../../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f/"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">f9007b70</a></code></td>
+<td>18.16 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.22">185.220.101.22</a></td>
+
+<td><a href="../../as/AS60729/">AS60729</a></td>
+<td><a href="https://bgp.he.net/AS60729" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../../country/de/"><img
+src="../../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/exit"><img src="../../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber38"><a href="../../relay/8678C629D35E2CA6A0D1A3D3F4C5F56134F5EB9A.html">artik...</a> (<a href="../../family/8678C629D35E2CA6A0D1A3D3F4C5F56134F5EB9A/">104</a>)</td>
+<td><code><a href="../../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f/"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">f9007b70</a></code></td>
+<td>17.75 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.19">185.220.101.19</a></td>
+
+<td><a href="../../as/AS60729/">AS60729</a></td>
+<td><a href="https://bgp.he.net/AS60729" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../../country/de/"><img
+src="../../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/exit"><img src="../../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber54"><a href="../../relay/1B18F98534634EF4EB4B36523F052F4D829E0496.html">artik...</a> (<a href="../../family/1B18F98534634EF4EB4B36523F052F4D829E0496/">104</a>)</td>
+<td><code><a href="../../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f/"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">f9007b70</a></code></td>
+<td>17.71 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.27">185.220.101.27</a></td>
+
+<td><a href="../../as/AS60729/">AS60729</a></td>
+<td><a href="https://bgp.he.net/AS60729" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../../country/de/"><img
+src="../../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/exit"><img src="../../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber45"><a href="../../relay/9F2CF2A8221FDE4BE29A677EA5AB27F2EA2EA24B.html">artik...</a> (<a href="../../family/9F2CF2A8221FDE4BE29A677EA5AB27F2EA2EA24B/">104</a>)</td>
+<td><code><a href="../../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f/"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">f9007b70</a></code></td>
+<td>16.85 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.23">185.220.101.23</a></td>
+
+<td><a href="../../as/AS60729/">AS60729</a></td>
+<td><a href="https://bgp.he.net/AS60729" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../../country/de/"><img
+src="../../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/exit"><img src="../../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber51"><a href="../../relay/A3389B5CCACB850B45148895B26AC912B7EC9CB6.html">artik...</a> (<a href="../../family/A3389B5CCACB850B45148895B26AC912B7EC9CB6/">104</a>)</td>
+<td><code><a href="../../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f/"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">f9007b70</a></code></td>
+<td>15.23 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.26">185.220.101.26</a></td>
+
+<td><a href="../../as/AS60729/">AS60729</a></td>
+<td><a href="https://bgp.he.net/AS60729" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../../country/de/"><img
+src="../../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/exit"><img src="../../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="artikel10ber42"><a href="../../relay/A7C6072A52804A8170D855908A748541F5D02B2C.html">artik...</a> (<a href="../../family/A7C6072A52804A8170D855908A748541F5D02B2C/">104</a>)</td>
+<td><code><a href="../../contact/f9007b70b8ed39bf23b3ae9fcb52fb1f/"
+title="Artikel10 url:artikel10.org email:info[]artikel10.org abuse:abuse[]artikel10.org gpg:401C81D432FBAD2CEEB0FA145A7563B99D808815 proof:uri-rsa ciissversion:2">f9007b70</a></code></td>
+<td>14.41 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.220.101.21">185.220.101.21</a></td>
+
+<td><a href="../../as/AS60729/">AS60729</a></td>
+<td><a href="https://bgp.he.net/AS60729" title="Zwiebelfreunde e.V.">Zwiebelfreunde e.V.</a></td>
+<td><a href="../../country/de/"><img
+src="../../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/exit"><img src="../../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="Aramis65"><a href="../../relay/99DB99DF22EE52B9B3A32749C12EDEA78F166B3F.html">Aramis65</a> (<a href="../../family/99DB99DF22EE52B9B3A32749C12EDEA78F166B3F/">19</a>)</td>
+<td><code><a href="../../contact/4338b6cf5fb514253b22ef91c47243d5/"
+title="email:torix@protonmail.com url:https://torix-relays.org proof:uri-rsa hoster:AlexHost ciissversion:2">4338b6cf</a></code></td>
+<td>3.44 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/91.208.197.112">91.208.197.112</a></td>
+
+<td><a href="../../as/AS200019/">AS200019</a></td>
+<td><a href="https://bgp.he.net/AS200019" title="ALEXHOST SRL">ALEXHOST SRL</a></td>
+<td><a href="../../country/md/"><img
+src="../../static/images/cc/md.png" title="Moldova, Republic of" alt="Moldova, Republic of"></a></td>
+<td><a href="../../platform/FreeBSD/">FreeBSD</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="seasite"><a href="../../relay/11F401E027AE8B2525B47654B760B6C754142A3E.html">seasite</a></td>
+<td><code><a href="../../contact/517ae146fbe4902af2d50317133d44a7/"
+title="XMPP &lt;seasite-sunbed at anonym.im&gt;">517ae146</a></code></td>
+<td>2.2 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/185.193.125.208">185.193.125.208</a></td>
+
+<td><a href="../../as/AS39287/">AS39287</a></td>
+<td><a href="https://bgp.he.net/AS39287" title="ab stract">ab stract</a></td>
+<td><a href="../../country/se/"><img
+src="../../static/images/cc/se.png" title="Sweden" alt="Sweden"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-12-03</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated by <a href="https://github.com/tempname1024/allium">allium</a> on
+Tue, 30 Aug 2022 22:05:50 GMT</p>
+</div>
+</footer>
+</html>

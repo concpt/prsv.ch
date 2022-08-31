@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: 2021-07-14</title>
+    <meta name="description" content="Javascript-free Tor metrics generated from
+    an hourly API request.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../static/css/bootstrap.min.css">
+    <!--source: metrics.torproject.org-->
+    <style>
+        .circle {
+            display: inline-block;
+            vertical-align: middle;
+            background: #999999;
+            width: 7px;
+            height: 7px;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+        }
+
+        .circle-online {
+            background: #25d918;
+        }
+
+        .circle-offline {
+            background: #ff1515;
+        }
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<h2><a href="../../">Home</a> :: 2021-07-14</h2>
+<p>Relays started on 2021-07-14 are responsible for ~11.41 MB/s of traffic, with 2
+middle relays and 1 exit relay.</p>
+<table class="table table-condensed">
+<tr>
+<th></th>
+<th>Nickname</th>
+<th>Contact</th>
+<th>Bandwidth</th>
+<th class="visible-md visible-lg">IP Address</th>
+<th>AS Number</th>
+<th>AS Name</th>
+<th>Country</th>
+<th>Platform</th>
+<th class="visible-md visible-lg">Flags</th>
+<th class="visible-md visible-lg">First Seen</th>
+</tr>
+<tbody>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="cotto"><a href="../../relay/4E8BF739B5E7835776EDD72CF9CAA402ACE00055.html">cotto</a></td>
+<td><code><a href="../../contact/a593d40adaf893b123df3184c529f8fd/"
+title="0x8D41788E90924014 Carsten Otto &lt;tor@c-otto.de&gt;">a593d40a</a></code></td>
+<td>8.96 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/157.90.112.145">157.90.112.145</a></td>
+
+<td><a href="../../as/AS24940/">AS24940</a></td>
+<td><a href="https://bgp.he.net/AS24940" title="Hetzner Online GmbH">Hetzner Online GmbH</a></td>
+<td><a href="../../country/de/"><img
+src="../../static/images/cc/de.png" title="Germany" alt="Germany"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-07-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="TakTor03"><a href="../../relay/1D65771E68383F294D4F1131B19DF64989EEDF8A.html">TakTor03</a></td>
+<td><code><a href="../../contact/30159373e8876a5725619e5767b21a20/"
+title="tak.tor.operator@gmail.com">30159373</a></code></td>
+<td>2.43 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/198.46.166.157">198.46.166.157</a></td>
+
+<td><a href="../../as/AS36352/">AS36352</a></td>
+<td><a href="https://bgp.he.net/AS36352" title="AS-COLOCROSSING">AS-COLOCROSSING</a></td>
+<td><a href="../../country/us/"><img
+src="../../static/images/cc/us.png" title="United States of America" alt="United States of America"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/exit"><img src="../../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-07-14</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="TorRelayByBT"><a href="../../relay/F30690BA215F39DF6EA77424DF1CB6B5BB0FDB70.html">TorRelayByBT</a></td>
+<td><code><a href="../../contact/5a8df3cef325e2ebf425488e1342562e/"
+title="abuse@bluet.org">5a8df3ce</a></code></td>
+<td>20.48 KB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/125.229.28.91">125.229.28.91</a></td>
+
+<td><a href="../../as/AS3462/">AS3462</a></td>
+<td><a href="https://bgp.he.net/AS3462" title="Chunghwa Telecom Co., Ltd.">Chunghwa Telecom...</a></td>
+<td><a href="../../country/tw/"><img
+src="../../static/images/cc/tw.png" title="Taiwan" alt="Taiwan"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-07-14</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated by <a href="https://github.com/tempname1024/allium">allium</a> on
+Tue, 30 Aug 2022 22:05:50 GMT</p>
+</div>
+</footer>
+</html>

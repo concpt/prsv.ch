@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tor Relays :: 2021-09-26</title>
+    <meta name="description" content="Javascript-free Tor metrics generated from
+    an hourly API request.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../static/css/bootstrap.min.css">
+    <!--source: metrics.torproject.org-->
+    <style>
+        .circle {
+            display: inline-block;
+            vertical-align: middle;
+            background: #999999;
+            width: 7px;
+            height: 7px;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+        }
+
+        .circle-online {
+            background: #25d918;
+        }
+
+        .circle-offline {
+            background: #ff1515;
+        }
+        .verified-hostname {
+            color: #FE9F30;
+        }
+        .verified-hostname {
+            color: #68b030;
+        }
+        .unverified-hostname {
+            color: #FE9F30;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<h2><a href="../../">Home</a> :: 2021-09-26</h2>
+<p>Relays started on 2021-09-26 are responsible for ~58.83 MB/s of traffic, with 4
+middle relays and 2 exit relays.</p>
+<table class="table table-condensed">
+<tr>
+<th></th>
+<th>Nickname</th>
+<th>Contact</th>
+<th>Bandwidth</th>
+<th class="visible-md visible-lg">IP Address</th>
+<th>AS Number</th>
+<th>AS Name</th>
+<th>Country</th>
+<th>Platform</th>
+<th class="visible-md visible-lg">Flags</th>
+<th class="visible-md visible-lg">First Seen</th>
+</tr>
+<tbody>
+<tr>
+<td><span class="circle circle-offline" title="This relay is offline"></span>
+</td>
+<td title="PSILOBYTE"><a href="../../relay/7B15EF8D3C56CC90EA93D2ACE521BEF77FEF9655.html">PSILOBYTE</a></td>
+<td><code><a href="../../contact/9328fc3bc6b61dc710b0f1d8b007b4c9/"
+title="Boris &lt;admin AT psilobyte dot io&gt;">9328fc3b</a></code></td>
+<td>30.77 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/192.234.196.169">192.234.196.169</a></td>
+
+<td><a href="../../as/AS14007/">AS14007</a></td>
+<td><a href="https://bgp.he.net/AS14007" title="SOHOSKYWAY1">SOHOSKYWAY1</a></td>
+<td><a href="../../country/ca/"><img
+src="../../static/images/cc/ca.png" title="Canada" alt="Canada"></a></td>
+<td><a href="../../platform/FreeBSD/">FreeBSD</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-26</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="Quetzalcoatl"><a href="../../relay/035F813195F0CB9F567EDFDF60C6745CA36BA0BD.html">Quetzalcoatl</a> (<a href="../../family/035F813195F0CB9F567EDFDF60C6745CA36BA0BD/">178</a>)</td>
+<td><code><a href="../../contact/695bb811c4eb9b2ef3ee040f1ad01023/"
+title="email:Quetzalcoatl_relays[]protonmail.com url:https://quetzalcoatl-relays.org proof:uri-rsa hoster:frantech.ca donationurl:https://quetzalcoatl-relays.org/#support-us btc:bc1qc5f3fvr5ftnj70gaj2q68dhg0mne0s85c7ql43 xmr:45TefH4UZFDZAkxLM6ktBhHfZ9r8cFG8T5F7fiCziV1fS21KKsbkBQmZNk5VSbPD991MAXLsH2f9nSMpsiHsDoZA6PYgHUn ciissversion:2">695bb811</a></code></td>
+<td>10.09 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/104.244.72.7">104.244.72.7</a></td>
+
+<td><a href="../../as/AS53667/">AS53667</a></td>
+<td><a href="https://bgp.he.net/AS53667" title="PONYNET">PONYNET</a></td>
+<td><a href="../../country/lu/"><img
+src="../../static/images/cc/lu.png" title="Luxembourg" alt="Luxembourg"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/exit"><img src="../../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-26</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="Quetzalcoatl"><a href="../../relay/E785813FBBD352664BC1F133CE31A54EF596C5BD.html">Quetzalcoatl</a> (<a href="../../family/E785813FBBD352664BC1F133CE31A54EF596C5BD/">178</a>)</td>
+<td><code><a href="../../contact/695bb811c4eb9b2ef3ee040f1ad01023/"
+title="email:Quetzalcoatl_relays[]protonmail.com url:https://quetzalcoatl-relays.org proof:uri-rsa hoster:frantech.ca donationurl:https://quetzalcoatl-relays.org/#support-us btc:bc1qc5f3fvr5ftnj70gaj2q68dhg0mne0s85c7ql43 xmr:45TefH4UZFDZAkxLM6ktBhHfZ9r8cFG8T5F7fiCziV1fS21KKsbkBQmZNk5VSbPD991MAXLsH2f9nSMpsiHsDoZA6PYgHUn ciissversion:2">695bb811</a></code></td>
+<td>8.02 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/104.244.72.7">104.244.72.7</a></td>
+
+<td><a href="../../as/AS53667/">AS53667</a></td>
+<td><a href="https://bgp.he.net/AS53667" title="PONYNET">PONYNET</a></td>
+<td><a href="../../country/lu/"><img
+src="../../static/images/cc/lu.png" title="Luxembourg" alt="Luxembourg"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/exit"><img src="../../static/images/flags/exit.png"
+title="Exit" alt="Exit"></a> <a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/guard"><img src="../../static/images/flags/guard.png"
+title="Guard" alt="Guard"></a> <a href="../../flag/hsdir"><img src="../../static/images/flags/hsdir.png"
+title="HSDir" alt="HSDir"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-26</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="only2"><a href="../../relay/36D81EAF658AB4ADCC21FB7F4F2A99B24C748BB0.html">only2</a> (<a href="../../family/36D81EAF658AB4ADCC21FB7F4F2A99B24C748BB0/">47</a>)</td>
+<td><code><a href="../../contact/d36dc8b373cdc194ed8d4f873699d63a/"
+title="1AKfiFWajSckVrArTVh21KkdPuegordE3E">d36dc8b3</a></code></td>
+<td>4.66 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/45.150.108.105">45.150.108.105</a></td>
+
+<td><a href="../../as/AS61102/">AS61102</a></td>
+<td><a href="https://bgp.he.net/AS61102" title="Interhost Communication Solutions Ltd.">Interhost...</a></td>
+<td><a href="../../country/il/"><img
+src="../../static/images/cc/il.png" title="Israel" alt="Israel"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-26</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="only1"><a href="../../relay/7B8C1F10C5968DA4707D16A520EFE350F25D086C.html">only1</a> (<a href="../../family/7B8C1F10C5968DA4707D16A520EFE350F25D086C/">47</a>)</td>
+<td><code><a href="../../contact/d36dc8b373cdc194ed8d4f873699d63a/"
+title="1AKfiFWajSckVrArTVh21KkdPuegordE3E">d36dc8b3</a></code></td>
+<td>4.23 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/45.150.108.105">45.150.108.105</a></td>
+
+<td><a href="../../as/AS61102/">AS61102</a></td>
+<td><a href="https://bgp.he.net/AS61102" title="Interhost Communication Solutions Ltd.">Interhost...</a></td>
+<td><a href="../../country/il/"><img
+src="../../static/images/cc/il.png" title="Israel" alt="Israel"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-26</td>
+</tr>
+<tr>
+<td><span class="circle circle-online" title="This relay is online"></span></td>
+<td title="Spagh3tty"><a href="../../relay/C2C4C9C0E1F72D8EEE8DF406F8078DCE576CB537.html">Spagh3tty</a></td>
+<td><code><a href="../../contact/e3c1b0a0f0463c9959eab92b65787a7c/"
+title="covalente &lt;covalente AT posteo dot eu&gt;">e3c1b0a0</a></code></td>
+<td>1.05 MB/s</td>
+
+<td class="visible-md visible-lg"><a href="https://bgp.he.net/ip/107.189.13.164">107.189.13.164</a></td>
+
+<td><a href="../../as/AS53667/">AS53667</a></td>
+<td><a href="https://bgp.he.net/AS53667" title="PONYNET">PONYNET</a></td>
+<td><a href="../../country/lu/"><img
+src="../../static/images/cc/lu.png" title="Luxembourg" alt="Luxembourg"></a></td>
+<td><a href="../../platform/Linux/">Linux</a></td>
+<td class="visible-md visible-lg"><a href="../../flag/fast"><img src="../../static/images/flags/fast.png"
+title="Fast" alt="Fast"></a> <a href="../../flag/running"><img src="../../static/images/flags/running.png"
+title="Running" alt="Running"></a> <a href="../../flag/stable"><img src="../../static/images/flags/stable.png"
+title="Stable" alt="Stable"></a> <a href="../../flag/v2dir"><img src="../../static/images/flags/v2dir.png"
+title="V2Dir" alt="V2Dir"></a> <a href="../../flag/valid"><img src="../../static/images/flags/valid.png"
+title="Valid" alt="Valid"></a> </td>
+
+<td class="visible-md visible-lg">2021-09-26</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+<footer class="page-footer font-small">
+<div class="footer-copyright text-center text-muted">
+<p>generated by <a href="https://github.com/tempname1024/allium">allium</a> on
+Tue, 30 Aug 2022 22:05:50 GMT</p>
+</div>
+</footer>
+</html>
